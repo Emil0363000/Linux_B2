@@ -1,0 +1,13 @@
+"sudo" permet à un utilisateur de pouvoir utiliser les commandes qui sont en majorités réservés à root et comment l'installation de logiciel
+
+Non tous les utilisateurs ne peuvent pas utiliser sudo 
+
+Il faut modifier le fichier /etc/sudoers et rajouter une ligne pour que Toto puisse l'utiliser Toto ALL=(ALL) NOPASSWD: /usr/bin/apt install
+
+Pour qu'il puisse toujours l'utiliser on peut l'ajouter au groupe sudo 
+
+On ne fait pas tout en root car un utilisateur ayant accès à tout pourrait commettre des erreurs importantes en faisant des actions qu'il ne doit pas
+faire et cela permet aussi de savoir ce que les utilisateurs font
+
+Il faut modifier le fichier bashrc de Toto et ajouter le message que l'on veut echo"Bienvenue Toto"
+
