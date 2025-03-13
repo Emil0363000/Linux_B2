@@ -1,0 +1,4 @@
+Que fait le commande "sudo chmod g+x owned_by_toto" ? cette commande permet au groupe propriétaire du fichier de l'executer
+
+Que fait la commande "sudo chown root:root owned_by_toto"? cette commande permet de changer le propriétaire du fichier owned_by_toto à root et 
+le groupe root devient aussi le propriétaire de ce fichier 
