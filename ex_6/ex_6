@@ -1,0 +1,8 @@
+Quelle est la commande pour prendre en compte les changements dans la configuration des services ? systemctl restart nom.. 
+
+Comment démarrer et stopper un service ?démarrer un service: systemctl start nom...
+stopper un service: systemctl stop nom ...
+
+A quoi sert l'option "restart" ? Quelles différences avec "start" ? L'option restart permet de stopper et redémarrer un service instantanément 
+ tandis que start lance un service qui était en off
+
