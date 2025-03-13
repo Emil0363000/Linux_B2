@@ -1,0 +1,3 @@
+Les formats de fichiers permettent de stocker les données des fichiers sous une certaine forme en fonction de leurs formats.
+
+la ligne #!/usr/bin/bash permet de spécifier que le script doit être réalisé avec Bash 
