@@ -1,0 +1,21 @@
+
+Quelle est la différence entre http et https ? La différence est que l'https est plus sécurisé car les données sont chiffrées
+
+Donnez le nom de 2 programmes qui permettent de faire des requetes http: curl et wget 
+
+Par convention, à quoi sont reservés les ports 80, 22 et 443 ? Ils sont réservés pour le transport de données via l'http, le ssh ou l'https 
+
+Comment activer et désactiver le pare feu par défaut ? Comment lister les règles entrantes et sortantes ?
+Activer le pare feu: ufw enable 
+désactiver le pare feu: ufw disable
+Lister les règles entrantes et sortantes: ufw status verbose
+
+A quoi sert le programme Nginx ?
+A gérer un serveur web 
+
+A quoi correspondent les initiales MVC ? Quel avantage offre cette architecture d'application ? 
+MVC correspond à Modèle Vue Controlleur. 
+MVC permet la réutilisation de code, une bonne organisation et une maintenance simple.
+
+A quoi correspondent les initiales CRUD ?
+CRUD correspond à Create Read Update Delete 
