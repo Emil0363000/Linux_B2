@@ -1,0 +1,5 @@
+la différence entre if/else et swwitch est que pour le premier un bloc de code sera exécuté si la condition est vraie sinon il exécutera l'autre bloc.
+alors que pour le second le switch, en fonction du cas dans le quel on se trouve on peut donner une execution précise, le switch nous offre plus de 
+latitude car on peut mettre autant de cas qu l'on souhaite
+
+
