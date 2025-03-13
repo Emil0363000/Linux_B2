@@ -1,0 +1,11 @@
+
+Quelle est la commande pour lister les taches cron ? crontab -l
+
+Comment créer une tache cron qui lance le script "owned_by_toto" avec l'utilisateur Toto à 1h30 du matin, tous les mercredis du mois. 
+on modifie le fichier cron de root avec : crontab -e, puis on ajoute le code suivant pour faire la tache: 
+30 1 * * 3  -u Toto /Linux_B2/shared_ex_4/owned_by_toto
+
+Expliquez brièvement à quoi servent les dossiers cron.weekly, cron.hourly et cron.monthly
+cron.weekly contient les scripts qui s'exécutent toutes les semaines 
+cron.hourly contient les scripts s'exécutant toutes les heures 
+cron.monthly contient les scripts s'exécutant tout les mois 
