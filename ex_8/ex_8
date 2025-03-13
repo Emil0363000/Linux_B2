@@ -1,0 +1,18 @@
+Quels sont les différents niveaux de logs ? Les différents niveaux de logs sont: 
+emergency 
+alert 
+crit
+error 
+warning 
+notice 
+info 
+debug 
+
+Comment limiter la taille des fichiers de log du journal (journalctl) à 200Mo ?
+On va dans le dossier de conf  nano /etc/systemd/journald.conf et on cherche le  SystemMaxUse et le RunTimeMaxUse et on écrtit = 200M
+
+Comment configurer les logs de l'application "nginx" (situés dans /var/log/nginx.log) pour que des rotations soient effectuées tous les mois en conservant les 12 derniers mois de logs, compressant les plus ancients, et en créant un nouveau fichier avec un mod "644 root root"
+
+Dans la pratique, pourquoi créer des règles de rotation de log ?
+
+Pour améliorer les performances, pour des raisons de sécurité, pour une meilleure gestion ainsi que de connserver une trace, un historique des logs.
