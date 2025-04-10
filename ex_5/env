@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Choisissez un environnement : dev, prod, test"
+read -r ENVIRON
+
+if [[ "$ENVIRON" =~ ^(dev|prod|test)$ ]]; then
+    export ENVIRON="$ENVIRON"
+    echo "La variable d'environnement ENVIRON est : $ENVIRON"
+else
+    echo "Erreur, choisissez entre dev, prod ou test."
+fi
+

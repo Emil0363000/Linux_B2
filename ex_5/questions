@@ -1,0 +1,25 @@
+Dans ce dossiez, créer un environnement virtuel python "pythonvenv". Activez le, installez la librairie flask et mettez le résultat de la commande "pip freeze" dans un fichier "requirements.txt".
+A quoi sert cette dernière opération ?
+Cela sert à faire un environnement virtuel Python et enregistre les
+dépendances si on veut faire un environnement similaire
+
+Ajouter un fichier .gitignore, ajoutez y "pythonvenv/".
+A quoi sert cette dernère opération ?
+On peut refaire l'environnement via le requirements.txt et 
+l'environneemnt python peut être volumineux
+
+
+Quels autres fichiers ou dossiers serait il approprié d'ajouter dans le .gitignore ? Pourquoi ?
+On pourrait ajouté les fichiers de log, l'env qui peut être sensible
+et le pycache.
+
+A quoi servent les commandes "apt update", "apt upgrade" ?
+Apt update: mettre à jour les listes des paquets disponibles
+Apt upgrade: mettre à jour les paquets déjà installés 
+
+Quelles différence entre les commandes "apt autoclean", "apt clean", "apt autoremove" et "apt purge"?
+Apt clean: efface le référentiel local des fichiers de package récupérés
+qui sont laissés dans /var/cache
+apt autoclean: comme apt clean mais ne supprime que les fichiers qui ne peuvent plus être téléchargés
+apt autoremove: supprime les packages qui ont été autoinstallés
+apt purge: supprime l'intégralité des paquets dont les fichiers de conf

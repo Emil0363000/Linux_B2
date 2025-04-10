@@ -1,3 +1,30 @@
-#!/usr/bin/bash
+#!/bin/bash
+
+check_argv() {
+	if [ -n "$1" ]; then
+    	return 1  
+	else
+    	return 0  
+	fi
+}
+ARG1=$1
+ARG2=$2
+check_argv "$ARG1"
+RESULT=$?
+
+echo "Valeur retournée par check_argv: $RESULT"
+
+case "$ARG2" in
+	"hello")
+    	echo "Le deuxième argument est 'hello'"
+    	;;
+	"toto")
+    	echo "Le deuxième argument est 'toto'"
+    	;;
+	*)
+    	echo "Le deuxième argument est autre chose"
+    	;;
+esac
+
 
 

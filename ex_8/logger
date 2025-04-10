@@ -1,0 +1,10 @@
+#!/bin/bash
+
+LOG_FILE="logs"
+
+USER=$(whoami)
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "$TIMESTAMP - $USER a lancé le script" >> "$LOG_FILE"
+
+echo "Log ajouté: $TIMESTAMP - $USER"
