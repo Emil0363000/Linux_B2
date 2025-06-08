@@ -2,4 +2,12 @@ la différence entre if/else et swwitch est que pour le premier un bloc de code 
 alors que pour le second le switch, en fonction du cas dans le quel on se trouve on peut donner une execution précise, le switch nous offre plus de 
 latitude car on peut mettre autant de cas qu l'on souhaite
 
+On peut aussi mettre autant de if qu'on veut.
+La différence est surtout dans la manière d'executer.
+Un if/else s'execute de manière linéaire, on parcourt toutes les possibilités jusqu'a rentrer dans la condition.
+Avec un switch cela s'apparente plus à une hash table / un dictionnaire
 
+Si vous savez que l'utilisateur va plutot choisir a et non b ou c, on préferera
+if a; else if b; else if c;
+
+Si les 3 possiblités risquent d'arriver avec +/- autant de chance, on préfèrera un switch
