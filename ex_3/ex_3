@@ -11,3 +11,5 @@ faire et cela permet aussi de savoir ce que les utilisateurs font
 
 Il faut modifier le fichier bashrc de Toto et ajouter le message que l'on veut echo"Bienvenue Toto"
 
+# Le point important à noter est qu'utiliser sudo élève les droits mais uniquement pour la commande qui suit
+# et surtout cela demandera le mot de passe contrairement à root qui peut tout supprimer sans qu'on ne lui demande aucune vérification
