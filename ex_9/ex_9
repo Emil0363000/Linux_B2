@@ -17,5 +17,7 @@ A quoi correspondent les initiales MVC ? Quel avantage offre cette architecture 
 MVC correspond à Modèle Vue Controlleur. 
 MVC permet la réutilisation de code, une bonne organisation et une maintenance simple.
 
+Oui, on parle surtout de séparation des responsabilités
+
 A quoi correspondent les initiales CRUD ?
 CRUD correspond à Create Read Update Delete 
