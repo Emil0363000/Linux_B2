@@ -9,3 +9,9 @@ Expliquez brièvement à quoi servent les dossiers cron.weekly, cron.hourly et c
 cron.weekly contient les scripts qui s'exécutent toutes les semaines 
 cron.hourly contient les scripts s'exécutant toutes les heures 
 cron.monthly contient les scripts s'exécutant tout les mois 
+
+
+# Il existe quelques spécificités : 
+# Dans la logique, les taches .weekly, hourly, monthly sont le plus souvent effectuées par le système (souvent par root).
+# Alors que les autres sont souvent executées par un utilisateur (postgres, nginx, un humain etc).
+# Dernier détail : sur certaines distributions, les taches liées à un utilisateur sont dans /var
